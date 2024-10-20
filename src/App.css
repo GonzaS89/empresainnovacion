@@ -12,6 +12,7 @@
 
   --blue : #2c4776;
   --greenlight : #8fc0c3;
+  --grey : #eef3fb
 
 }
 
@@ -23,6 +24,8 @@ h1{
   font-size: 50px;
   color: var(--blue);
 }
+
+    
 
 p{
   font-family: var(--parraph);
