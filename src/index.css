@@ -34,7 +34,7 @@ h1{
 
     
 
-p{
+p, li, button{
   font-family: var(--parraph);
 }
 
