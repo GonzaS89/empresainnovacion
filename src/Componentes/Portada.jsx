@@ -9,8 +9,8 @@ export const Portada = () => {
             </span>
             <span className="bg-azulfuerte w-[700px] h-[500px] rounded-3xl absolute right-0">
             </span>
-            <div className='z-40'>
-            <span className="bloqueimg  absolute left-20 bottom-[-50px]"></span>
+            <div className='flex w-[700px] h-[500px] z-50 absolute left-20 bottom-[-50px]'>
+            <span className="bloqueimg rounded-3xl"></span>
             </div>
             
         </div>
