@@ -23,7 +23,7 @@ export const Nosotros2 = () => {
   return (
     <section className='bg-white py-12 px-10 flex flex-col gap-8'>
         <h1 className="text-4xl text-left">Nosotros construimos productos de calidad</h1>
-        <p className='text-2xl text-left'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam reiciendis consequatur veritatis deserunt quis, quam nemo libero laborum quibusdam asperiores in.</p>
+        <p className='text-2xl text-left'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam reiciendis consequatur veritatis</p>
         <div className="flex flex-col gap-8">
             {arrayDeCategorias.map( (element, index) => (
                 <Categoria key={index} titulo={element.name} array={element.array}/>
