@@ -3,21 +3,19 @@ import '../Estilos/portada.css'
 
 export const Portada = () => {
   return (
-    <section className="bg-grisfondo w-full h-[700px] flex justify-center items-center">
-        <div className="w-[1000px] h-[600px] flex items-center justify-center relative">
-            <span className="bg-verdeclaro h-[400px] w-[440px] rounded-3xl absolute left-0">
-            </span>
-            <span className="bg-azulfuerte w-[780px] h-[550px] rounded-3xl absolute right-0">
-            </span>
-            <div className='w-[800px] h-[500px] flex justify-space-between gap-10 basis 2/4 z-50 absolute left-20 bottom-[-20px] text-left'>
-            <span className="bloqueimg rounded-3xl"></span>
-            <div className='basis-2/4 text-white flex flex-col items-start flex gap-4'>
-              <h2 className='text-5xl'>Empresa de innovación</h2>
-              <p className='text-sm leading-loose font-thin'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit impedit distinctio commodi. Voluptatum expedita esse, necessitatibus porro voluptates repudiandae delectus saepe voluptatem dolore reprehenderit facilis quisquam. Provident mollitia repudiandae nisi?</p>
-              <button className='border-white w-[150px] border-2 uppercase p-[10px] rounded-[20px] tracking-widest text-sm'>ver más</button>
+    <section className="bg-grisfondo w-full flex justify-center px-[50px] pb-10">
+        <div className="w-full h-[800px] flex flex-center justify-center relative">
+          <span className="w-full h-full bg-verdeclaro rounded-2xl absolute top-0"></span>
+          <div className="flex w-full h-[650px] bg-azulfuerte absolute z-40 bottom-0 rounded-2xl">
+            <div className="flex flex-col w-full h-full translate-y-[-90px]">
+            <span className="bloqueimg rounded-2xl self-end"></span>
+            <div className="w-full flex flex-col items-start px-[20px] mt-[20px] text-white text-left">
+              <h2 className="text-4xl">Empresa de innovacion</h2>
+              <p className="text-md w-[100%] font-thin py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam nemo fugiat totam molestiae modi tempora? Ullam nesciunt cupiditate quae natus, atque, voluptatum consequatur illo, labore facilis cumque distinctio minima deserunt.</p>
+              <button className="border-2 w-[150px] py-2 rounded-xl uppercase mt-2">ver más</button>
             </div>
             </div>
-            
+          </div>
         </div>
     </section>
   )
