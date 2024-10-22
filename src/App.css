@@ -26,6 +26,10 @@ h1{
   font-weight: bold;
 }
 
+h6{
+  font-family: var(--numbers);
+}
+
     
 
 p, li, button{

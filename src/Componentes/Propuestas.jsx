@@ -33,7 +33,7 @@ export const Virtudes = () => {
 
   return (
     <section className='bg-white py-12 px-10'>
-        <h1 className='text-3xl text-left'>Prototipo de una idea de producto digital</h1>
+        <h1 className='text-4xl text-left'>Prototipo de una idea de producto digital</h1>
         <div className='flex flex-col gap-15'>
           {arrayPropuestas.map( (propuesta, index) => (
             <Propuesta key = {index} titulo = {propuesta.nombre} imgref = {propuesta.imgref}/>

@@ -39,7 +39,7 @@ export const Productos = () => {
 
   return (
     <section className="bg-grisfondo py-12 px-10">
-        <h1 className="text-3xl">El nuevo producto
+        <h1 className="text-4xl">El nuevo producto
         Proceso de desarrollo</h1>
         <div className="flex flex-col gap-8 mt-12">
           {arrayProductos.map((prod,index) => (
