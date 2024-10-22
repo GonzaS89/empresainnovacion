@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Estilos/profesionales.css';
-import CountUp from 'react-countup';
+
 
 
 
