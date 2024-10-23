@@ -7,7 +7,7 @@ export const Productos = () => {
 
     { "id" : 0,
       "imgref" : 'paint',
-      "titulo" : 'Investigar las necesidades del usuario',
+      "titulo" : 'Necesidades del usuario',
       "texto" : 'Descubra los puntos débiles y comprenda el comportamiento del usuario'
     },
     { "id" : 1,
@@ -38,14 +38,17 @@ export const Productos = () => {
   ]
 
   return (
-    <section className="bg-grisfondo py-12 px-10">
-        <h1 className="text-4xl">El nuevo producto
+    <section className="flex flex-col items-center bg-grisfondo py-12 px-10">
+      <div className='max-w-7xl flex flex-col items-center'>
+      <h1 className="text-4xl lg:text-5xl">El nuevo producto
         Proceso de desarrollo</h1>
-        <div className="flex flex-col gap-8 mt-12">
+        <div className="flex flex-col items-center md:grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8 mt-12">
           {arrayProductos.map((prod,index) => (
             <Producto key={index} id = {index} imgref={prod.imgref} titulo={prod.titulo} texto={prod.texto}/>
           ))}
         </div>
+      </div>
+        
     </section>
   )
 }

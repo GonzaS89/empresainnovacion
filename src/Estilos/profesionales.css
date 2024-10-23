@@ -5,3 +5,9 @@
     background-size:cover;
     background-position: center;
 }
+
+@media (min-width: 1024px){
+    .img-profesionales{
+        height:500px
+    }
+}

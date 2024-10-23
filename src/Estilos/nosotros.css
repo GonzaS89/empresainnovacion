@@ -9,3 +9,10 @@
     background-size: cover;
     background-position: center;
 }
+
+@media (min-width:1024px){
+    .nosotros2-img{
+        height: 650px
+    }
+    
+}

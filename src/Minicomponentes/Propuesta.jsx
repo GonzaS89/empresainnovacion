@@ -18,11 +18,11 @@ export const Propuesta = (props) => {
     }
 
   return (
-    <div className="flex flex-col gap-3 mt-10">
-        <span className="bg-verdeclaro w-[60px] h-[60px] flex justify-center items-center rounded-lg">
+    <div className="flex flex-col gap-3 lg:flex-row items-center mt-10">
+        <span className="bg-verdeclaro w-[60px] md:w-24 h-[60px] md:h-24 flex justify-center items-center rounded-lg">
             {retornarImg(props.imgref)}
         </span>
-        <h2 className="font-bold text-azulfuerte text-left text-xl">{props.titulo}</h2>
+        <h2 className="font-bold text-azulfuerte text-left text-xl md:text-2xl">{props.titulo}</h2>
     </div>
   )
 }

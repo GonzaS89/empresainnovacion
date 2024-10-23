@@ -21,7 +21,7 @@ export const Virtudes = () => {
       "imgref" : "producto"
     },
     {
-      "nombre" : "Recaudación de fondos para una nueva startup",
+      "nombre" : "Creación de una nueva startup",
       "imgref" : "recaudar"
     },
     {
@@ -32,13 +32,16 @@ export const Virtudes = () => {
   ]
 
   return (
-    <section className='bg-white py-12 px-10'>
-        <h1 className='text-4xl text-left'>Prototipo de una idea de producto digital</h1>
-        <div className='flex flex-col gap-15'>
+    <section className='flex flex-col items-center bg-white py-12 px-10'>
+      <div className='flex flex-col items-start gap-8 lg:max-w-7xl'>
+      <h1 className='text-4xl lg:text-5xl text-left'>Prototipo de una idea de producto digital</h1>
+        <div className='flex flex-col gap-8 sm:grid grid-cols-2'>
           {arrayPropuestas.map( (propuesta, index) => (
             <Propuesta key = {index} titulo = {propuesta.nombre} imgref = {propuesta.imgref}/>
           ))}
         </div>
+      </div>
+        
     </section>
   )
 }
